@@ -1,0 +1,33 @@
+body{
+    background-color: darkgrey;
+}
+
+
+h1{
+    color: rgb(255, 106, 20);
+}
+
+h2{
+    color: deeppink;
+    text-align: center;
+}
+
+.demo2{
+    color: rgb(152, 228, 108);
+}
+
+.TestText{
+    color: forestgreen;
+    font-weight: bolder;
+}
+
+.banner{
+    text-align: center;
+    max-height: max-content;
+}
+
+.Spezial{
+    color: darkslateblue;
+    text-align: right;
+    font-weight: bolder ;
+}

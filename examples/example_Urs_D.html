@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/examples/style.css">
+    <title>Übung D</title>
+
+</head>
+
+<header>
+        <div class="banner"><img src="/images/goodVibes.jpg" alt="GoodVibes"></div>    
+</header>
+    
+
+<body>
+
+<h1>Button and and events</h1>
+
+<div>
+    <p class="TestText"></p>
+    <h2>Dieser Titel sollte in der Mitte und einer anderen Farbe erscheinen</h2>
+</div>
+
+
+<!-- der erste button plooppt mit einem Text auf der rechten Seite auf -->
+<button onclick="document.getElementById('Spezial').innerHTML=Date()">Wie spät ist es?</button>  
+<p id="Spezial" class= "Spezial"></p>
+
+
+<!-- der zweite Button ändert den text auf dem Button -->
+<button onclick="this.innerHTML = Date()">The time is?</button>
+
+<script>
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
