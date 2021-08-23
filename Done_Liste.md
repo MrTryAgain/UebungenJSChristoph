@@ -1,3 +1,7 @@
 Übungen die schon erledigt sind
 
-1
+
+A
+B
+C
+
